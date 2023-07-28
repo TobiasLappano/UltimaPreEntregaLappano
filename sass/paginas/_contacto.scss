@@ -1,0 +1,25 @@
+  /*contacto*/
+  .socialMedia{
+    background-color: white;
+    margin: 150px;
+    padding: auto;
+    justify-items: start;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    flex-direction: column;
+    border-radius: 50px;
+    }
+    .social {
+      background-color: #1212120e;
+      font-size: x-large;
+      color: white;
+      text-align: center;
+
+    }    
+    @media only screen and (max-width: 660px) {
+    .social {
+      text-align: center;
+      font-size: small;}
+    }
+    

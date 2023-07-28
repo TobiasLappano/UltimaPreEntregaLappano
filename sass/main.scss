@@ -1,0 +1,24 @@
+@import "base/resets";
+@import "paginas/contacto";
+@import "paginas/inicio";
+@import "paginas/memesanimados";
+@import "paginas/memesnormales";
+@import "paginas/nosotros";
+@import "paginas/footer";
+@import "utilidades/variables";
+
+
+.nav-link {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgb(12, 12, 12);
+}
+.logo {
+    height: 74px;
+    width: 80px;
+    border: 30px;
+    text-decoration: none;
+}
+.container-fluid{
+    background: linear-gradient(rgb(0, 255, 0), rgba(2, 2, 2, 0.749));
+}
+

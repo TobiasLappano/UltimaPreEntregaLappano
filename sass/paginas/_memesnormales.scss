@@ -1,0 +1,18 @@
+/*memes normales*/
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  
+  .column1 {
+    flex: 25%;
+    padding: 0 4px;
+  }
+  
+  
+  .column1 img {
+    margin-top: 50px;
+    vertical-align: middle;
+    width: 100%;
+  }
+ 

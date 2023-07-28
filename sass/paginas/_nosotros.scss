@@ -1,0 +1,92 @@
+/*nosotros*/
+
+.contenedor {
+  text-align: center;
+  display: flex;
+  margin-top: 12rem;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 12rem;
+}
+
+.columna {
+  margin: 0 auto;
+  float: left;
+  width: 50%;
+  background: linear-gradient(rgb(30, 255, 0),rgb(234, 255, 0));
+  height: 300px;
+}
+
+.img-nosotros {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-nosotros {
+  font-size: calc(1em + 1vh);
+  color: rgb(0, 0, 0);
+}
+
+.column .text-nosotros {
+  color: white;
+}
+
+@media only screen and (max-width: 991px) {
+  .img-nosotros {
+    width: 100%;
+    height: 89%;
+    object-fit: cover;
+  }
+
+
+  .text-nosotros {
+    width: 100%;
+    text-align: justify;
+    padding: 10px;
+    font-size: small;
+  }
+
+}
+
+@media (max-width: 767) {
+  .img-nosotros {
+    margin-top: none;
+    object-fit: contain;
+    max-width: 100%;
+height: auto
+  }
+
+  .text-nosotros {
+    margin-top: 0;
+    object-fit: contain;
+    font-size: large;
+    border: 10;
+  }
+}
+
+  
+@media only screen and (max-width: 660px) {
+  .img-nosotros {
+    margin-top: none;
+    object-fit: contain;
+  }
+}
+  .text-nosotros {
+    margin-top: 10px;
+    object-fit: contain;
+  }
+
+  @media (min-width: 422px) and (max-width: 565px) {
+    .img-nosotros {
+      margin-top: none;
+      object-fit: contain;
+    }
+  
+    .text-nosotros {
+      margin-top: 10px;
+      object-fit: contain;
+      font-size: xx-small;
+
+    }
+}

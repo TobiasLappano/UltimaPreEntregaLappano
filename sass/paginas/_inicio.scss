@@ -1,0 +1,35 @@
+/*body*/
+body{
+    background-color: #121212
+    
+    }
+    .nosotros{
+        font-size: xx-large;
+        color: white;
+        text-align: center;
+    
+    }
+    .MENU{
+    
+        font-size: x-large;
+        color: white;
+        text-align: center;
+    
+    
+    }
+    @media screen and (max-width: 601px) {
+        .nosotros{
+            font-size: medium;
+            text-align: center;
+            padding: 1rem;
+            margin-right: 1rem;
+        }
+        .MENU{
+            font-size: medium;
+            text-align: center;
+            padding: 1rem;
+            margin-right: 1rem;
+        }
+
+    }
+    

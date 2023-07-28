@@ -1,0 +1,19 @@
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    }
+    
+    .columna1 {
+      flex:50%;
+      width: auto;
+      padding: 0 4px;
+      text-align: center;
+    }
+    
+    
+    .columna1 video {
+      margin-top: 50px;
+      width: 70%;
+      height: 10%;
+    }
